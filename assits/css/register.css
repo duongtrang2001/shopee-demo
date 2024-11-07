@@ -1,0 +1,191 @@
+.header-register {
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-register__text {
+    display: flex;
+    align-items: center;
+}
+
+.header-register__img-logo {
+    width: 120px;
+    margin: -10px 10px 0 34px;
+}
+
+.header-register__name {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.header-register__link-help {
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.button-btn {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+
+/*------- set form register ---------*/
+.container-register {
+    height: 600px;
+    background-color: var(--main-color);
+}
+
+.container-register__form {
+    display: flex;
+    margin: auto;
+    width: 1040;
+    justify-content: flex-end;
+    background: url(/Shopee\ demo/assits/img/register/background-register.png) top center / cover no-repeat;
+}
+
+.form-register {
+    width: 400px;
+    flex-direction: column;
+    background-color: var(--white-color);
+    margin: 86px 0;
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.form-register__text {
+    margin: 0 0 30px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-color);
+
+}
+
+.container-register input[type=number]::-webkit-inner-spin-button, 
+.container-register input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container-register input::placeholder {
+    color: #b9b9b9;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.form-register__input {
+    border: var(--border-color) solid 1px;
+}
+input:focus {
+    border: #999 solid 1px;
+    outline: none;
+    box-shadow: -0.5px 0.5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-register__input-value {
+    position: relative;
+}
+
+.form-register__iput-icon {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    color: #65ca00;
+}
+
+.form-register__btn {
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin: 30px 0;
+}
+
+.form-register__btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.container-register--separate-x {
+    position: relative;
+    color: #b9b9b9;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.container-register--separate-x::before,
+.container-register--separate-x::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 135px;
+    border: 1px solid var(--border-color);
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.container-register--separate-x::after {
+    right: 0;
+}
+
+.container-register__list-social {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-register__social-item:hover {
+    background-color: #fafafa;
+}
+
+.container-register__social-item {
+    color: var(--text-color);
+    text-decoration: none;
+    width: 165px;
+    text-align: center;
+    font-size: 1.4rem;
+    border: 1px solid #b9b9b9;
+    align-content: center;
+}
+
+.container-register--social-icon {
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.container-register__text-policy {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.container-register__text-link {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.container-register__have-account {
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    color: #b9b9b9;
+    text-align: center;
+    font-weight: 300;
+}
+
+.container-register__login {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 400;
+}
