@@ -125,20 +125,15 @@
         display: none;
     }
 
-    .footer-bottom {
-        flex-wrap: wrap-reverse;
-    }
-
     .footer-bottom__copyright {
         flex-shrink: 0;
-        margin-top: 12px;
     }
-
+    
     .footer-bottom__area-list {
         flex-wrap: wrap;
         margin-left: 12px;
     }
-
+    
     .footer-bottom__area-name {
         margin: 6px 0;
     }
